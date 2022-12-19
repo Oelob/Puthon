@@ -21,4 +21,5 @@ for i in text.read():
         sum += list[i]
     except:
         continue
+text.close()
 print(sum)
