@@ -14,12 +14,12 @@ print(list)
 
 text = open(r'sem02\homework\file.txt','r')
 print(text)
-sum = 0
+multi = 1
 for i in text.read():
     try:
         i = int(i)
-        sum += list[i]
+        multi *= list[i]
     except:
         continue
 text.close()
-print(sum)
+print(multi)
