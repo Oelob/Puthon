@@ -3,7 +3,7 @@
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 import random
 
-list = []*9
+list = []
 for i in range (9):
     list.append(random.randint(0,9))
     
