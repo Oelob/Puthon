@@ -6,6 +6,17 @@ import sys
 sys.path.append(r'C:\Users\1\Desktop\иван\задания по разработчику\python')
 from funcs.functions import*
 
+# Попробовал создать отдельную папку с функциями и деать на них ссылки из файлов с задачами. Не уверен, что после размещения на репозитории
+# функции будут открываться. Поэтому, на всякий случай, приложил функции сюда в виде комментария.
+
+# import random
+
+# def RandomList(number, edge_of_random):
+#     list = []
+#     for i in range(number):
+#         list.append(random.randint(0, edge_of_random))
+#     return list
+
 a = int(input('Введите количество элементов списка: '))
 b = int(input('Введите предел диапазона произвольных чисел: '))
 array = RandomList(a, b)
