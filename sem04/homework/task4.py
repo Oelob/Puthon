@@ -49,5 +49,5 @@ result = result + (f'{coeffitient[-1]} = 0')
     
 print(result)
 
-f = open('result_task4.txt','w',encoding='utf-8')
+f = open(r'sem04\homework\result_task4.txt','w',encoding='utf-8')
 f.write(result)
