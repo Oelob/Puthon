@@ -44,10 +44,11 @@ for i in range(k,0,-1):
 print(list_x)
 
 for i in range(k):
-    result = result + (f'{coeffitient[i]}*{list_x[i]} + ')
+    result = result + (f'{coeffitient[i]}{list_x[i]} + ')
 result = result + (f'{coeffitient[-1]} = 0')
     
 print(result)
 
 f = open(r'sem04\homework\result_task4.txt','w',encoding='utf-8')
 f.write(result)
+f.close()
