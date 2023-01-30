@@ -91,14 +91,7 @@ def Start():
         return
     
     
-    # temp = int(input('Если хотите добавить еще один контакт, нажмите 1. Если хотите выйти нажмите 0. '))
-    # if temp == 1:
-    #     contact = list(_input.Create_New_Cont())
-    #     with open (r'sem07\tellguide\contacts.csv', encoding='utf-8', mode = 'a') as a_file:
-    #         contacts = csv.DictWriter(a_file, delimiter=';', lineterminator = '\r', fieldnames=head)
-    #         contacts.writerow({'ID':contact[0], 'FirstName':contact[1], 'LastName':contact[2], 'PhoneNumber':contact[3]}) 
-    # elif temp == 0:
-    #     return
+   
         
 
     
